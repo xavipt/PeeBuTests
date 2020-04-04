@@ -1,6 +1,5 @@
 Feature: Check All Transactions
-  As a user
-	I want to navigate to the PeeBuTests HomePage
+  As a user I want to navigate to the PeeBuTests HomePage
   So that I can see all the Money Transactions
 
 
