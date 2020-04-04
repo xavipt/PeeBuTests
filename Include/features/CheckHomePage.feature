@@ -5,6 +5,6 @@ Feature: Check Home Page
 	
 
   Scenario: Check if the Home Page exists
-  Given I have the browser open
-  When I navigate to the URL
-  Then I verify that the page exists
+  	Given I have the browser open
+  	When I navigate to the URL
+  	Then I verify that the page exists
