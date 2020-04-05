@@ -6,7 +6,7 @@ Feature: Check transaction details
 		Given I have the browser open
 		When I navigate to the home page
 	
-		Scenario Outline: See a transaction details
+		Scenario Outline: I See a transaction details
 			Then I see that the <typeDetails> details are shown
 			
 			Examples:   
