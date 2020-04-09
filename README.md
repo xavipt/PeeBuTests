@@ -8,3 +8,4 @@ testing weebhook
 production server 34.83.124.80
 staging server 34.106.239.211
 jenkins server 34.106.204.87
+Jenkins credentials admin wccu9Y.2
