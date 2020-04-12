@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="forTesting" time="9.286" tests="1" failures="0" errors="0">
+   <testsuite name="forTesting" tests="1" failures="0" errors="0" time="9.286" timestamp="2020-04-04 22:59:58" hostname="Xavier - DESKTOP-O7GHIRD" id="Test Suites/forTesting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Mestrado\\SoftwareQuality\\PeeBuTestsAutomated\\Reports\\20200404_225951\\forTesting\\20200404_225951"/>
+         <property name="logFiles" value="D:\\Mestrado\\SoftwareQuality\\PeeBuTestsAutomated\\Reports\\20200404_225951\\forTesting\\20200404_225951\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Xavier - DESKTOP-O7GHIRD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 74.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="7cf9a60e-ec4c-4b04-ad90-b038880447e5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/forTesting" time="8.988" classname="Test Cases/forTesting" status="PASSED">
+         <system-out><![CDATA[2020-04-04 22:59:58 - [TEST_CASE][PASSED] - Test Cases/forTesting: Test Cases/forTesting
+
+2020-04-04 22:59:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-04 22:59:58 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-04 22:59:58 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-04 23:00:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-04 23:00:05 - [TEST_STEP][PASSED] - navigateToUrl("34.106.239.211"): Navigate to 'http://34.106.239.211' successfully
+
+2020-04-04 23:00:05 - [MESSAGE][PASSED] - Navigate to 'http://34.106.239.211' successfully
+
+2020-04-04 23:00:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Welcome to nginx/h1_Welcome to nginx"), 0): Object 'Object Repository/Page_Welcome to nginx/h1_Welcome to nginx' is present
+
+2020-04-04 23:00:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-04 23:00:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Welcome to nginx/h1_Welcome to nginx' is present
+
+2020-04-04 23:00:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-04 23:00:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-04 22:59:58 - [TEST_SUITE][PASSED] - forTesting: Test Cases/forTesting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
