@@ -1,0 +1,87 @@
+#FeatureFiles = 8
+
+
+*** Landing Page (CheckHomePage || CheckAllTransactions)
+- Happy Path - ok
+
+- Scenarios - 0
+>> how will you assess that all the transactions are presented on the list?
+>> what happens when the balance does not exist?
+>> and if the API Web Service is not available?
+
+- Test Setup and Teardown - 0
+
+
+
+
+*** Transaction Details (CheckTransactionDetails)
+- Happy Path - ok
+
+- Scenarios - 1
+>> what happens when I have no data?
+>> how can I check if the data presented is the data that should be presented?
+
+- Test Setup and Teardown - ok
+
+
+
+
+*** Transaction Classification (ClassificationByCategoryButton)
+- Happy Path - 0
+>> how do I check if the classification did actually occurred?
+
+- Scenarios - 0
+>> what happens when I don't have transactions to classify?
+>> I can only classify one transaction at a time?
+>> can I cancel?
+>> can I update a classification?
+
+- Test Setup and Teardown - ok
+
+
+
+
+*** Identification of Unclassified Transactions (CheckTheUnclassifiedTransactions)
+- Happy Path - ok
+
+- Scenarios - 0
+>> what happens when you don't have data?
+>> what happens when all the transactions are already classified?
+
+- Test Setup and Teardown - 0
+
+
+
+
+*** Filtering (CheckFilter...)
+- Happy Path - 0
+>> how do I check if the filter was actually applied?
+
+
+- Scenarios - 6
+>> is it possible to have multiple filters?
+>> what happens if I  don't have any transaction?
+
+- Test Setup and Teardown - ok
+
+
+
+
+*** Fully Classified Transactions List with Aggregate Information (*TableAndChart* || Redirect...)
+- Happy Path - ok
+
+- Scenarios - 1
+>> what happens when there is no data?
+>> where are the specific options available? is it a custom table, chart?
+
+- Test Setup and Teardown - ok
+
+
+
+!!!!! Gherkin Usage
+Using a "Background" when you only have one scenario does not make much sense.
+No usage of "Scenario Outline+Examples" when you should
+
+Name for scenarios should match in a sentence a brief description of the test
+##############
+#Pipeline: acesso às apps em staging e production?
