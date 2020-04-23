@@ -25,5 +25,9 @@ WebUI.verifyElementText(findTestObject('Page_PeeBu/a_PeeBu'), 'PeeBu')
 
 WebUI.verifyTextPresent('Home', true)
 
+WebUI.click(findTestObject('Page_PeeBu/a_Dropdown'))
+
+WebUI.verifyElementPresent(findTestObject('Page_PeeBu/div_Action Another action  Something else here'), 0)
+
 WebUI.closeBrowser()
 
