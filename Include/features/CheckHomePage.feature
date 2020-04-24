@@ -14,6 +14,3 @@ Feature: Check Home Page
   	Scenario: Check if the Dropdown exists and contains info
   	When I click the drop down Dropdown
 		Then I verify that the Dropdown has more info
-		
-  	#Scenario Outline: the API Web Service is not available
-  	#Then I verify that the API is not up
