@@ -6,22 +6,9 @@ Feature: Check transaction details
     Given I have the browser open
     When I navigate to the home page
 
-  Scenario Outline: I check if the data presented is the data that should be presented
-    Then I Check if the <column> match their <content>
-
-    Examples: 
-      | column     | content                         |
-      | 'Entidade' | 'Wintheiser, Kuhn and Turcotte' |
-      | 'Tipo'     | 'debit'                         |
-      | 'Fonte'    | 'debit card'                    |
-      | Data       | '2019-06-16T210914933Z'         |
-      | Quantidade | '269,10'                        |
-      | 'Id'       |                               1 |
-
-  # entidade, ammount, todas sa colunas, fazer pelo menos 1 teste,comparar com o 1º campo da pai que é sempre igual
-  Scenario: There is a problem with the API Service
-    When I have no data on the transactions
-    Then I see an message "There is no data to show"
+  Scenario: The API Service is operational
+    When I make a request to the API
+    Then The status code of the response is 200
 
   Scenario Outline: I See a transaction details
     Then I see that the <typeDetails> details are shown
