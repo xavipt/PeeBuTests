@@ -14,3 +14,4 @@ Feature: Check Home Page
   	Scenario: Check if the Dropdown exists and contains info
   	When I click the drop down Dropdown
 		Then I verify that the Dropdown has more info
+
