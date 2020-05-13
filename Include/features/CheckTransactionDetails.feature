@@ -14,7 +14,7 @@ Feature: Check transaction details
       | column     | content                         |
       | 'Entidade' | 'Wintheiser, Kuhn and Turcotte' |
       | 'Tipo'     | 'debit'                         |
-      | 'Fonte'    | 'debit card'                    |
+      | 'Fonte'    | 'bank account'                    |
       | Data       | '2019-06-16T210914933Z'         |
       | Quantidade | '269,10'                        |
       | 'Id'       |                               1 |

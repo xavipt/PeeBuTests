@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
-   <name>forTesting</name>
+   <description>With Data, API tested</description>
+   <name>CheckTransactionDetailsTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,11 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>edde4ad9-ec60-4290-922e-71634082e091</testSuiteGuid>
+   <testSuiteGuid>f8159a18-f2a5-4bde-9ac6-45b90d11861c</testSuiteGuid>
    <testCaseLink>
-      <guid>f5b02b7a-d9df-4172-9e9d-98754f58adbf</guid>
+      <guid>5c46a338-59f9-44fb-a710-fb7f566a0666</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/forTesting</testCaseId>
+      <testCaseId>Test Cases/RequestApiTransactionSetup</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
