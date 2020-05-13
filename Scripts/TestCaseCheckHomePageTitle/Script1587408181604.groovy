@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://peebu.test/')
+WebUI.navigateToUrl('http://52.30.237.186/')
 
 WebUI.verifyElementPresent(findTestObject('Page_PeeBu/a_PeeBu'), 0)
 
