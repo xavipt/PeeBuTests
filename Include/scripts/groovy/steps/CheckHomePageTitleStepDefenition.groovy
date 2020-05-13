@@ -52,7 +52,7 @@ class CheckHomePageTitleStepDefenition {
 
 	@When("I navigate to the home page")
 	public void i_navigate_to_the_home_page() {
-		WebUI.navigateToUrl('http://52.30.237.186')
+		WebUI.navigateToUrl('http://52.30.237.186/')
 	}
 
 	@Then("I verify that the page exists")
