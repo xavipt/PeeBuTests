@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="109.104547">
+<testcase classname="Check transaction details" name="I check if the data presented is the data that should be presented" time="10.312286">
+<system-out><![CDATA[Given I have the browser open...............................................passed
+When I navigate to the home page............................................passed
+And The API is operational..................................................passed
+Then I Check if the 'Entidade' match their 'Wintheiser, Kuhn and Turcotte'..passed
+]]></system-out>
+</testcase>
+<testcase classname="Check transaction details" name="I check if the data presented is the data that should be presented 2" time="16.06605">
+<system-out><![CDATA[Given I have the browser open...............................................passed
+When I navigate to the home page............................................passed
+And The API is operational..................................................passed
+Then I Check if the 'Tipo' match their 'debit'..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check transaction details" name="I check if the data presented is the data that should be presented 3" time="11.30052">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)&#13;&#10;&#9;at CheckTransactionsStepDef.i_Check_if_the_match_their(CheckTransactionsStepDef.groovy:89)&#13;&#10;&#9;at ✽.I Check if the 'Fonte' match their 'debit card'(D:/Mestrado/SoftwareQuality/PeeBuTests/include/features/CheckTransactionDetails.feature:11)&#13;&#10;"><![CDATA[Given I have the browser open...............................................passed
+When I navigate to the home page............................................passed
+And The API is operational..................................................passed
+Then I Check if the 'Fonte' match their 'debit card'........................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at CheckTransactionsStepDef.i_Check_if_the_match_their(CheckTransactionsStepDef.groovy:89)
+	at ✽.I Check if the 'Fonte' match their 'debit card'(D:/Mestrado/SoftwareQuality/PeeBuTests/include/features/CheckTransactionDetails.feature:11)
+]]></failure>
+</testcase>
+<testcase classname="Check transaction details" name="I check if the data presented is the data that should be presented 4" time="9.08928">
+<system-out><![CDATA[Given I have the browser open...............................................passed
+When I navigate to the home page............................................passed
+And The API is operational..................................................passed
+Then I Check if the Data match their '2019-06-16T210914933Z'................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check transaction details" name="I check if the data presented is the data that should be presented 5" time="9.004079">
+<system-out><![CDATA[Given I have the browser open...............................................passed
+When I navigate to the home page............................................passed
+And The API is operational..................................................passed
+Then I Check if the Quantidade match their '269,10'.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check transaction details" name="I check if the data presented is the data that should be presented 6" time="8.866264">
+<system-out><![CDATA[Given I have the browser open...............................................passed
+When I navigate to the home page............................................passed
+And The API is operational..................................................passed
+Then I Check if the 'Id' match their 1......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check transaction details" name="I See a transaction details" time="8.478634">
+<system-out><![CDATA[Given I have the browser open...............................................passed
+When I navigate to the home page............................................passed
+And The API is operational..................................................passed
+Then I see that the 'Entidade' details are shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check transaction details" name="I See a transaction details 2" time="8.580287">
+<system-out><![CDATA[Given I have the browser open...............................................passed
+When I navigate to the home page............................................passed
+And The API is operational..................................................passed
+Then I see that the 'Tipo' details are shown................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check transaction details" name="I See a transaction details 3" time="8.698464">
+<system-out><![CDATA[Given I have the browser open...............................................passed
+When I navigate to the home page............................................passed
+And The API is operational..................................................passed
+Then I see that the 'Fonte' details are shown...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check transaction details" name="I See a transaction details 4" time="9.150237">
+<system-out><![CDATA[Given I have the browser open...............................................passed
+When I navigate to the home page............................................passed
+And The API is operational..................................................passed
+Then I see that the 'Data' details are shown................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check transaction details" name="I See a transaction details 5" time="9.558446">
+<system-out><![CDATA[Given I have the browser open...............................................passed
+When I navigate to the home page............................................passed
+And The API is operational..................................................passed
+Then I see that the 'Quantidade' details are shown..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
