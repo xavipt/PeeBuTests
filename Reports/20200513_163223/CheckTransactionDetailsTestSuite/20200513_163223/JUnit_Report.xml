@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CheckTransactionDetailsTestSuite" time="102.579" tests="1" failures="1" errors="0">
+   <testsuite name="CheckTransactionDetailsTestSuite" tests="1" failures="1" errors="0" time="102.579" timestamp="2020-05-13 16:32:27" hostname="Xavier - 192.168.1.68" id="Test Suites/CheckTransactionDetailsTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Mestrado\\SoftwareQuality\\PeeBuTests\\Reports\\20200513_163223\\CheckTransactionDetailsTestSuite\\20200513_163223"/>
+         <property name="logFiles" value="D:\\Mestrado\\SoftwareQuality\\PeeBuTests\\Reports\\20200513_163223\\CheckTransactionDetailsTestSuite\\20200513_163223\\execution0.log"/>
+         <property name="attachments" value="D:\\Mestrado\\SoftwareQuality\\PeeBuTests\\Reports\\20200513_163223\\CheckTransactionDetailsTestSuite\\20200513_163223\\1589383978869.png, D:\\Mestrado\\SoftwareQuality\\PeeBuTests\\Reports\\20200513_163223\\CheckTransactionDetailsTestSuite\\20200513_163223\\1589383978959.png"/>
+         <property name="hostName" value="Xavier - 192.168.1.68"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 76.0"/>
+         <property name="hostAddress" value="192.168.1.68"/>
+         <property name="sessionId" value="907624eb-0b00-49ba-8b6d-0f91f73266c5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RequestApiTransactionSetup" time="98.229" classname="Test Cases/RequestApiTransactionSetup" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RequestApiTransactionSetup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'include/features/CheckTransactionDetails.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at RequestApiTransactionSetup.run(RequestApiTransactionSetup:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589383943125.run(TempTestSuite1589383943125.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-13 16:32:30 - [TEST_CASE][FAILED] - Test Cases/RequestApiTransactionSetup: Test Cases/RequestApiTransactionSetup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'include/features/CheckTransactionDetails.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at RequestApiTransactionSetup.run(RequestApiTransactionSetup:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589383943125.run(TempTestSuite1589383943125.groovy:36)
+
+
+2020-05-13 16:32:30 - [TEST_STEP][FAILED] - runFeatureFile("include/features/CheckTransactionDetails.feature"): Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'include/features/CheckTransactionDetails.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at RequestApiTransactionSetup.run(RequestApiTransactionSetup:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589383943125.run(TempTestSuite1589383943125.groovy:36)
+)
+
+2020-05-13 16:32:30 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'include/features/CheckTransactionDetails.feature' and extract report to folder: 'D:\Mestrado\SoftwareQuality\PeeBuTests\Reports\20200513_163223\CheckTransactionDetailsTestSuite\20200513_163223/cucumber_report/1589383950962'...
+
+2020-05-13 16:32:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO I check if the data presented is the data that should be presented: SCENARIO I check if the data presented is the data that should be presented
+
+2020-05-13 16:32:31 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-05-13 16:32:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 16:32:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-13 16:32:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:32:36 - [MESSAGE][PASSED] - I have the browser open
+
+2020-05-13 16:32:36 - [TEST_STEP][PASSED] - I navigate to the home page: I navigate to the home page
+
+2020-05-13 16:32:38 - [MESSAGE][PASSED] - Navigate to 'http://52.30.237.186' successfully
+
+2020-05-13 16:32:38 - [MESSAGE][PASSED] - I navigate to the home page
+
+2020-05-13 16:32:38 - [TEST_STEP][PASSED] - The API is operational: The API is operational
+
+2020-05-13 16:32:38 - [MESSAGE][PASSED] - The API is operational
+
+2020-05-13 16:32:38 - [TEST_STEP][PASSED] - I Check if the 'Entidade' match their 'Wintheiser, Kuhn and Turcotte': I Check if the 'Entidade' match their 'Wintheiser, Kuhn and Turcotte'
+
+2020-05-13 16:32:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-13 16:32:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/th_Entidade' is present
+
+2020-05-13 16:32:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PeeBu/td_Wintheiser, Kuhn and Turcotte' are matched.
+
+2020-05-13 16:32:40 - [MESSAGE][PASSED] - I Check if the 'Entidade' match their 'Wintheiser, Kuhn and Turcotte'
+
+2020-05-13 16:32:40 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO I check if the data presented is the data that should be presented: SCENARIO I check if the data presented is the data that should be presented
+
+2020-05-13 16:32:40 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-05-13 16:32:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 16:32:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 16:32:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:32:46 - [MESSAGE][PASSED] - I have the browser open
+
+2020-05-13 16:32:46 - [TEST_STEP][PASSED] - I navigate to the home page: I navigate to the home page
+
+2020-05-13 16:32:48 - [MESSAGE][PASSED] - Navigate to 'http://52.30.237.186' successfully
+
+2020-05-13 16:32:48 - [MESSAGE][PASSED] - I navigate to the home page
+
+2020-05-13 16:32:48 - [TEST_STEP][PASSED] - The API is operational: The API is operational
+
+2020-05-13 16:32:48 - [MESSAGE][PASSED] - The API is operational
+
+2020-05-13 16:32:48 - [TEST_STEP][PASSED] - I Check if the 'Tipo' match their 'debit': I Check if the 'Tipo' match their 'debit'
+
+2020-05-13 16:32:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-13 16:32:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/th_Tipo' is present
+
+2020-05-13 16:32:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PeeBu/td_debit' are matched.
+
+2020-05-13 16:32:49 - [MESSAGE][PASSED] - I Check if the 'Tipo' match their 'debit'
+
+2020-05-13 16:32:49 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO I check if the data presented is the data that should be presented: SCENARIO I check if the data presented is the data that should be presented FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_PeeBu/td_debit card' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at CheckTransactionsStepDef.i_Check_if_the_match_their(CheckTransactionsStepDef.groovy:89)
+	at ✽.I Check if the 'Fonte' match their 'debit card'(D:/Mestrado/SoftwareQuality/PeeBuTests/include/features/CheckTransactionDetails.feature:11)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'bank account' and expected text 'debit card' of test object 'Object Repository/Page_PeeBu/td_debit card' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at CheckTransactionsStepDef.i_Check_if_the_match_their(CheckTransactionsStepDef.groovy:89)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at RequestApiTransactionSetup.run(RequestApiTransactionSetup:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589383943125.run(TempTestSuite1589383943125.groovy:36)
+
+
+2020-05-13 16:32:49 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-05-13 16:32:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 16:32:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 16:32:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:32:55 - [MESSAGE][PASSED] - I have the browser open
+
+2020-05-13 16:32:55 - [TEST_STEP][PASSED] - I navigate to the home page: I navigate to the home page
+
+2020-05-13 16:32:57 - [MESSAGE][PASSED] - Navigate to 'http://52.30.237.186' successfully
+
+2020-05-13 16:32:57 - [MESSAGE][PASSED] - I navigate to the home page
+
+2020-05-13 16:32:57 - [TEST_STEP][PASSED] - The API is operational: The API is operational
+
+2020-05-13 16:32:57 - [MESSAGE][PASSED] - The API is operational
+
+2020-05-13 16:32:57 - [TEST_STEP][FAILED] - I Check if the 'Fonte' match their 'debit card': I Check if the 'Fonte' match their 'debit card' FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_PeeBu/td_debit card' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at CheckTransactionsStepDef.i_Check_if_the_match_their(CheckTransactionsStepDef.groovy:89)
+	at ✽.I Check if the 'Fonte' match their 'debit card'(D:/Mestrado/SoftwareQuality/PeeBuTests/include/features/CheckTransactionDetails.feature:11)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'bank account' and expected text 'debit card' of test object 'Object Repository/Page_PeeBu/td_debit card' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at CheckTransactionsStepDef.i_Check_if_the_match_their(CheckTransactionsStepDef.groovy:89)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at RequestApiTransactionSetup.run(RequestApiTransactionSetup:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589383943125.run(TempTestSuite1589383943125.groovy:36)
+
+
+2020-05-13 16:32:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-13 16:32:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/th_Fonte' is present
+
+2020-05-13 16:32:58 - [MESSAGE][FAILED] - Actual text 'bank account' and expected text 'debit card' of test object 'Object Repository/Page_PeeBu/td_debit card' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'bank account' and expected text 'debit card' of test object 'Object Repository/Page_PeeBu/td_debit card' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at CheckTransactionsStepDef.i_Check_if_the_match_their(CheckTransactionsStepDef.groovy:89)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at RequestApiTransactionSetup.run(RequestApiTransactionSetup:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589383943125.run(TempTestSuite1589383943125.groovy:36)
+)
+[[ATTACHMENT|D:\\Mestrado\\SoftwareQuality\\PeeBuTests\\Reports\\20200513_163223\\CheckTransactionDetailsTestSuite\\20200513_163223\\1589383978869.png]]
+
+2020-05-13 16:32:59 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_PeeBu/td_debit card' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_PeeBu/td_debit card' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at CheckTransactionsStepDef.i_Check_if_the_match_their(CheckTransactionsStepDef.groovy:89)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at RequestApiTransactionSetup.run(RequestApiTransactionSetup:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589383943125.run(TempTestSuite1589383943125.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'bank account' and expected text 'debit card' of test object 'Object Repository/Page_PeeBu/td_debit card' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 42 more
+)
+[[ATTACHMENT|D:\\Mestrado\\SoftwareQuality\\PeeBuTests\\Reports\\20200513_163223\\CheckTransactionDetailsTestSuite\\20200513_163223\\1589383978959.png]]
+
+2020-05-13 16:32:59 - [MESSAGE][FAILED] - I Check if the 'Fonte' match their 'debit card' FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_PeeBu/td_debit card' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at CheckTransactionsStepDef.i_Check_if_the_match_their(CheckTransactionsStepDef.groovy:89)
+	at ✽.I Check if the 'Fonte' match their 'debit card'(D:/Mestrado/SoftwareQuality/PeeBuTests/include/features/CheckTransactionDetails.feature:11)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'bank account' and expected text 'debit card' of test object 'Object Repository/Page_PeeBu/td_debit card' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at CheckTransactionsStepDef.i_Check_if_the_match_their(CheckTransactionsStepDef.groovy:89)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at RequestApiTransactionSetup.run(RequestApiTransactionSetup:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589383943125.run(TempTestSuite1589383943125.groovy:36)
+
+
+2020-05-13 16:32:59 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO I check if the data presented is the data that should be presented: SCENARIO I check if the data presented is the data that should be presented
+
+2020-05-13 16:32:59 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-05-13 16:32:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 16:33:00 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 16:33:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:33:04 - [MESSAGE][PASSED] - I have the browser open
+
+2020-05-13 16:33:04 - [TEST_STEP][PASSED] - I navigate to the home page: I navigate to the home page
+
+2020-05-13 16:33:06 - [MESSAGE][PASSED] - Navigate to 'http://52.30.237.186' successfully
+
+2020-05-13 16:33:06 - [MESSAGE][PASSED] - I navigate to the home page
+
+2020-05-13 16:33:06 - [TEST_STEP][PASSED] - The API is operational: The API is operational
+
+2020-05-13 16:33:06 - [MESSAGE][PASSED] - The API is operational
+
+2020-05-13 16:33:06 - [TEST_STEP][PASSED] - I Check if the Data match their '2019-06-16T210914933Z': I Check if the Data match their '2019-06-16T210914933Z'
+
+2020-05-13 16:33:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-13 16:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/th_Data' is present
+
+2020-05-13 16:33:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PeeBu/td_2019-06-16T210914933Z' are matched.
+
+2020-05-13 16:33:07 - [MESSAGE][PASSED] - I Check if the Data match their '2019-06-16T210914933Z'
+
+2020-05-13 16:33:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO I check if the data presented is the data that should be presented: SCENARIO I check if the data presented is the data that should be presented
+
+2020-05-13 16:33:07 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-05-13 16:33:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 16:33:09 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 16:33:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:33:13 - [MESSAGE][PASSED] - I have the browser open
+
+2020-05-13 16:33:13 - [TEST_STEP][PASSED] - I navigate to the home page: I navigate to the home page
+
+2020-05-13 16:33:15 - [MESSAGE][PASSED] - Navigate to 'http://52.30.237.186' successfully
+
+2020-05-13 16:33:15 - [MESSAGE][PASSED] - I navigate to the home page
+
+2020-05-13 16:33:15 - [TEST_STEP][PASSED] - The API is operational: The API is operational
+
+2020-05-13 16:33:15 - [MESSAGE][PASSED] - The API is operational
+
+2020-05-13 16:33:15 - [TEST_STEP][PASSED] - I Check if the Quantidade match their '269,10': I Check if the Quantidade match their '269,10'
+
+2020-05-13 16:33:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-13 16:33:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/th_Quantidade' is present
+
+2020-05-13 16:33:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PeeBu/td_269,10' are matched.
+
+2020-05-13 16:33:16 - [MESSAGE][PASSED] - I Check if the Quantidade match their '269,10'
+
+2020-05-13 16:33:16 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO I check if the data presented is the data that should be presented: SCENARIO I check if the data presented is the data that should be presented
+
+2020-05-13 16:33:16 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-05-13 16:33:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 16:33:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 16:33:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:33:22 - [MESSAGE][PASSED] - I have the browser open
+
+2020-05-13 16:33:22 - [TEST_STEP][PASSED] - I navigate to the home page: I navigate to the home page
+
+2020-05-13 16:33:24 - [MESSAGE][PASSED] - Navigate to 'http://52.30.237.186' successfully
+
+2020-05-13 16:33:24 - [MESSAGE][PASSED] - I navigate to the home page
+
+2020-05-13 16:33:24 - [TEST_STEP][PASSED] - The API is operational: The API is operational
+
+2020-05-13 16:33:24 - [MESSAGE][PASSED] - The API is operational
+
+2020-05-13 16:33:24 - [TEST_STEP][PASSED] - I Check if the 'Id' match their 1: I Check if the 'Id' match their 1
+
+2020-05-13 16:33:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-13 16:33:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/th_Id' is present
+
+2020-05-13 16:33:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PeeBu/td_1' are matched.
+
+2020-05-13 16:33:25 - [MESSAGE][PASSED] - I Check if the 'Id' match their 1
+
+2020-05-13 16:33:25 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO I See a transaction details: SCENARIO I See a transaction details
+
+2020-05-13 16:33:25 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-05-13 16:33:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 16:33:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 16:33:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:33:30 - [MESSAGE][PASSED] - I have the browser open
+
+2020-05-13 16:33:30 - [TEST_STEP][PASSED] - I navigate to the home page: I navigate to the home page
+
+2020-05-13 16:33:32 - [MESSAGE][PASSED] - Navigate to 'http://52.30.237.186' successfully
+
+2020-05-13 16:33:32 - [MESSAGE][PASSED] - I navigate to the home page
+
+2020-05-13 16:33:32 - [TEST_STEP][PASSED] - The API is operational: The API is operational
+
+2020-05-13 16:33:32 - [MESSAGE][PASSED] - The API is operational
+
+2020-05-13 16:33:32 - [TEST_STEP][PASSED] - I see that the 'Entidade' details are shown: I see that the 'Entidade' details are shown
+
+2020-05-13 16:33:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-13 16:33:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/th_Entidade' is present
+
+2020-05-13 16:33:33 - [MESSAGE][PASSED] - I see that the 'Entidade' details are shown
+
+2020-05-13 16:33:33 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO I See a transaction details: SCENARIO I See a transaction details
+
+2020-05-13 16:33:33 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-05-13 16:33:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 16:33:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 16:33:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:33:39 - [MESSAGE][PASSED] - I have the browser open
+
+2020-05-13 16:33:39 - [TEST_STEP][PASSED] - I navigate to the home page: I navigate to the home page
+
+2020-05-13 16:33:41 - [MESSAGE][PASSED] - Navigate to 'http://52.30.237.186' successfully
+
+2020-05-13 16:33:41 - [MESSAGE][PASSED] - I navigate to the home page
+
+2020-05-13 16:33:41 - [TEST_STEP][PASSED] - The API is operational: The API is operational
+
+2020-05-13 16:33:41 - [MESSAGE][PASSED] - The API is operational
+
+2020-05-13 16:33:41 - [TEST_STEP][PASSED] - I see that the 'Tipo' details are shown: I see that the 'Tipo' details are shown
+
+2020-05-13 16:33:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-13 16:33:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/th_Tipo' is present
+
+2020-05-13 16:33:42 - [MESSAGE][PASSED] - I see that the 'Tipo' details are shown
+
+2020-05-13 16:33:42 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO I See a transaction details: SCENARIO I See a transaction details
+
+2020-05-13 16:33:42 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-05-13 16:33:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 16:33:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 16:33:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:33:48 - [MESSAGE][PASSED] - I have the browser open
+
+2020-05-13 16:33:48 - [TEST_STEP][PASSED] - I navigate to the home page: I navigate to the home page
+
+2020-05-13 16:33:50 - [MESSAGE][PASSED] - Navigate to 'http://52.30.237.186' successfully
+
+2020-05-13 16:33:50 - [MESSAGE][PASSED] - I navigate to the home page
+
+2020-05-13 16:33:50 - [TEST_STEP][PASSED] - The API is operational: The API is operational
+
+2020-05-13 16:33:50 - [MESSAGE][PASSED] - The API is operational
+
+2020-05-13 16:33:50 - [TEST_STEP][PASSED] - I see that the 'Fonte' details are shown: I see that the 'Fonte' details are shown
+
+2020-05-13 16:33:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-13 16:33:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/th_Fonte' is present
+
+2020-05-13 16:33:51 - [MESSAGE][PASSED] - I see that the 'Fonte' details are shown
+
+2020-05-13 16:33:51 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO I See a transaction details: SCENARIO I See a transaction details
+
+2020-05-13 16:33:51 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-05-13 16:33:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 16:33:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 16:33:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:33:57 - [MESSAGE][PASSED] - I have the browser open
+
+2020-05-13 16:33:57 - [TEST_STEP][PASSED] - I navigate to the home page: I navigate to the home page
+
+2020-05-13 16:33:58 - [MESSAGE][PASSED] - Navigate to 'http://52.30.237.186' successfully
+
+2020-05-13 16:33:58 - [MESSAGE][PASSED] - I navigate to the home page
+
+2020-05-13 16:33:58 - [TEST_STEP][PASSED] - The API is operational: The API is operational
+
+2020-05-13 16:33:58 - [MESSAGE][PASSED] - The API is operational
+
+2020-05-13 16:33:58 - [TEST_STEP][PASSED] - I see that the 'Data' details are shown: I see that the 'Data' details are shown
+
+2020-05-13 16:33:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-13 16:33:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/th_Data' is present
+
+2020-05-13 16:33:59 - [MESSAGE][PASSED] - I see that the 'Data' details are shown
+
+2020-05-13 16:33:59 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO I See a transaction details: SCENARIO I See a transaction details
+
+2020-05-13 16:33:59 - [TEST_STEP][PASSED] - I have the browser open: I have the browser open
+
+2020-05-13 16:33:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 16:34:00 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-13 16:34:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:34:04 - [MESSAGE][PASSED] - I have the browser open
+
+2020-05-13 16:34:04 - [TEST_STEP][PASSED] - I navigate to the home page: I navigate to the home page
+
+2020-05-13 16:34:07 - [MESSAGE][PASSED] - Navigate to 'http://52.30.237.186' successfully
+
+2020-05-13 16:34:07 - [MESSAGE][PASSED] - I navigate to the home page
+
+2020-05-13 16:34:07 - [TEST_STEP][PASSED] - The API is operational: The API is operational
+
+2020-05-13 16:34:07 - [MESSAGE][PASSED] - The API is operational
+
+2020-05-13 16:34:07 - [TEST_STEP][PASSED] - I see that the 'Quantidade' details are shown: I see that the 'Quantidade' details are shown
+
+2020-05-13 16:34:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-13 16:34:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PeeBu/th_Quantidade' is present
+
+2020-05-13 16:34:08 - [MESSAGE][PASSED] - I see that the 'Quantidade' details are shown
+
+2020-05-13 16:34:09 - [MESSAGE][FAILED] - Feature file 'include/features/CheckTransactionDetails.feature' was failed
+
+2020-05-13 16:34:09 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'include/features/CheckTransactionDetails.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at RequestApiTransactionSetup.run(RequestApiTransactionSetup:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589383943125.run(TempTestSuite1589383943125.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2020-05-13 16:32:30 - [TEST_CASE][FAILED] - Test Cases/RequestApiTransactionSetup: Test Cases/RequestApiTransactionSetup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'include/features/CheckTransactionDetails.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at RequestApiTransactionSetup.run(RequestApiTransactionSetup:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589383943125.run(TempTestSuite1589383943125.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-13 16:32:27 - [TEST_SUITE][FAILED] - CheckTransactionDetailsTestSuite: Test Cases/RequestApiTransactionSetup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'include/features/CheckTransactionDetails.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at RequestApiTransactionSetup.run(RequestApiTransactionSetup:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589383943125.run(TempTestSuite1589383943125.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-05-13 16:32:27 - [TEST_SUITE][FAILED] - CheckTransactionDetailsTestSuite: Test Cases/RequestApiTransactionSetup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'include/features/CheckTransactionDetails.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at RequestApiTransactionSetup.run(RequestApiTransactionSetup:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589383943125.run(TempTestSuite1589383943125.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

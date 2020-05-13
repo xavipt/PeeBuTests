@@ -15,11 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('34.106.239.211')
-
-WebUI.verifyElementPresent(findTestObject('Page_Welcome to nginx/h1_Welcome to nginx'), 0)
-
-WebUI.closeBrowser()
+CucumberKW.runFeatureFile('include/features/CheckTransactionDetails.feature')
 
