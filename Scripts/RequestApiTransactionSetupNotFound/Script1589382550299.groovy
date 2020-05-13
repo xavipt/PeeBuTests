@@ -15,19 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://52.30.237.186')
-
-WebUI.verifyElementPresent(findTestObject('Page_PeeBu/a_PeeBu'), 0)
-
-WebUI.verifyElementText(findTestObject('Page_PeeBu/a_PeeBu'), 'PeeBu')
-
-WebUI.verifyTextPresent('Home', true)
-
-WebUI.click(findTestObject('Page_PeeBu/a_Dropdown'))
-
-WebUI.verifyElementPresent(findTestObject('Page_PeeBu/div_Action Another action  Something else here'), 0)
-
-WebUI.closeBrowser()
+CucumberKW.runFeatureFile('include/features/CheckTransactionDetailsNoData.feature')
 

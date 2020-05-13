@@ -52,7 +52,7 @@ class CheckHomePageTitleStepDefenition {
 
 	@When("I navigate to the home page")
 	public void i_navigate_to_the_home_page() {
-		WebUI.navigateToUrl('http://peebu.test/')
+		WebUI.navigateToUrl('http://52.30.237.186')
 	}
 
 	@Then("I verify that the page exists")
@@ -68,7 +68,6 @@ class CheckHomePageTitleStepDefenition {
 	@When("I click the drop down Dropdown")
 	public void i_click_the_drop_down_Dropdown() {
 		WebUI.click(findTestObject('Page_PeeBu/a_Dropdown'))
-		
 	}
 
 	@Then("I verify that the Dropdown has more info")
