@@ -32,6 +32,10 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
+WS.verifyResponseStatusCode(response, 404)
+
+
+
 
 
 </verificationScript>
