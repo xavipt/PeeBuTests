@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="forTesting" time="2.185" tests="1" failures="0" errors="0">
+   <testsuite name="forTesting" tests="1" failures="0" errors="0" time="2.185" timestamp="2020-05-13 15:44:30" hostname="Xavier - 192.168.1.68" id="Test Suites/forTesting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Mestrado\\SoftwareQuality\\PeeBuTests\\Reports\\20200513_154419\\forTesting\\20200513_154421"/>
+         <property name="logFiles" value="D:\\Mestrado\\SoftwareQuality\\PeeBuTests\\Reports\\20200513_154419\\forTesting\\20200513_154421\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Xavier - 192.168.1.68"/>
+         <property name="hostAddress" value="192.168.1.68"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+      </properties>
+      <testcase name="Test Cases/forTesting" time="0.894" classname="Test Cases/forTesting" status="PASSED">
+         <system-out><![CDATA[2020-05-13 15:44:30 - [TEST_CASE][PASSED] - Test Cases/forTesting: Test Cases/forTesting
+
+2020-05-13 15:44:31 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-13 15:44:30 - [TEST_SUITE][PASSED] - forTesting: Test Cases/forTesting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
