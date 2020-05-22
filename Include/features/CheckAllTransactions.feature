@@ -7,23 +7,20 @@ Feature: Check All Transactions
 		When I navigate to the home page
 
   Scenario Outline: I check if the data presented is the data that should be presented
-    Then I Check if the <column> match their <content>
+    Then I Check if the <column> match their <content> of the list
 
     Examples: 
       | column     | content                         |
-      | 'Entidade' | 'Wintheiser, Kuhn and Turcotte' |
+      | 'Entidade' | 'Gislason - Rau' |
       | 'Tipo'     | 'debit'                         |
-      | 'Fonte'    | 'debit card'                    |
-      | Data       | '2019-06-16T210914933Z'         |
-      | Quantidade | '269,10'                        |
-      | 'Id'       |                               1 |
+      | 'Fonte'    | 'cash'                    |
+      | Data       | '2019-09-16T131955227Z'         |
+      | Quantidade | '433,10'                        |
+      | 'Id'       |                               2 |
     
     Scenario: Check if all the (10) transactions are presented on the list
-		Then I verify that there are 10 transactions on the page
+		Then I verify that there are 5 transactions on the page
 		
 		Scenario: Check the balance
-		Then I verify that there are 10 pages of transactions
+		Then I verify that there are 100 of transactions in total
 		
-		Scenario: APi Service is down and the page gives feedback	 
-		When API Web Service is not available
-		Then I see an message "There is no data to show"
