@@ -6,27 +6,25 @@ Feature: Classification by category buttons
     Given I have the browser open
     When I navigate to the home page
 
+	Scenario: I don't have transactions to classify
+		Then I'm redirected to the fully classified transactions list page
+
   Scenario Outline: I classify one transaction and then I update it to other category
     And I see <category> image button
     Then I tap the <category> button to classify
     And I verify that the transaction was classified
-    And I see <category2> image button
+    And I see <category> image button
     Then I tap the <category2> button to classify
     And I verify that the transaction was classified
 
     Examples: 
-      | category      | category2   |
-      | 'hairdresser' | 'restaurant'  |
-      | 'restaurant'  | 'health'      |
-      | 'health'      | 'games'       |
-      | 'games'       | 'education'   |
-      | 'education'   | 'home'        |
-      | 'home'        | 'pets'        |
-      | 'pets'        | 'car'         |
-      | 'car'         | 'supermarket' |
-      | 'supermarket' | 'clothes'     |
-      | 'clothes'     | 'others'      |
-      | 'others'      | 'hairdresser' |
+      | category       | category2      |
+      | food           | transportation |
+      | health         | entertainment  |
+      | education      | household      |
+      | household      | food           |
+      | entertainment  | health         |
+      | transportation | education      |
 
   Scenario Outline: I see an uncategorized transaction
     And I see <category> image button
@@ -34,16 +32,12 @@ Feature: Classification by category buttons
     #Then I click the buttton to go to the transaction classifed
     And I verify that the transaction was classified
 
+    #não encontro a transação na lista
     Examples: 
-      | category      |
-      | 'hairdresser' |
-      | 'restaurant'  |
-      | 'health'      |
-      | 'games'       |
-      | 'education'   |
-      | 'home'        |
-      | 'pets'        |
-      | 'car'         |
-      | 'supermarket' |
-      | 'clothes'     |
-      | 'others'      |
+      | category       |
+      | food           |
+      | health         |
+      | education      |
+      | household      |
+      | entertainment  |
+      | transportation |
