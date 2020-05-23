@@ -18,7 +18,7 @@ Feature: Check All Transactions
       | Quantidade | '433,10'                        |
       | 'Id'       |                               2 |
     
-    Scenario: Check if all the (10) transactions are presented on the list
+    Scenario: Check if all the (5) transactions are presented on the list
 		Then I verify that there are 5 transactions on the page
 		
 		Scenario: Check the balance

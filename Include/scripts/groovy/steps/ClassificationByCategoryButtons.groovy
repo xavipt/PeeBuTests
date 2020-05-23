@@ -47,16 +47,13 @@ class ClassificationByCategoryButtons {
 
 	@And("I see {string} image button")
 	public void i_see_image_button(String string) {
-		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/'+string), 0)
 	}
 
 	@Then("I tap the {string} button to classify")
 	public void i_tap_the_button_to_classify(String string) {
-		WebUI.click(findTestObject('Page_PeeBu/'+string))
 	}
 
 	@Then("I verify that the transaction was classified")
 	public void i_verify_that_the_transaction_was_classified() {
-		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/button_bank account_btn buttonDimensions bt_c36a13'), 0)
 	}
 }
