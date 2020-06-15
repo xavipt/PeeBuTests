@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Validar</name>
    <tag></tag>
-   <elementGuidId>27acc48e-ef0c-418c-947b-e3e739613c7f</elementGuidId>
+   <elementGuidId>95845549-9ae1-469b-8292-24b08a8e0fa5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

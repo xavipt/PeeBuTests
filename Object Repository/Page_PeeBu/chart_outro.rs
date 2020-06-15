@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Despesas por categoria</name>
+   <name>chart_outro</name>
    <tag></tag>
-   <elementGuidId>6f574bf7-00ec-4ce1-9644-4c5ba9b3b82e</elementGuidId>
+   <elementGuidId>59f16714-bca9-40c2-a7c0-a6e088ed8563</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Despesas por categoria']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='outro']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,21 +24,21 @@
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>294.1000061035156</value>
+      <value>27</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>20</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text-anchor</name>
+      <name>font-size</name>
       <type>Main</type>
-      <value>middle</value>
+      <value>12</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,43 +50,29 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>font-size</name>
+      <name>text-anchor</name>
       <type>Main</type>
-      <value>13</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>font-weight</name>
-      <type>Main</type>
-      <value>normal</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>widget-title</value>
+      <value>start</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Despesas por categoria</value>
+      <value>outro</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;h-100 w-100&quot;]/div[@class=&quot;container-fluid h-90 w-100&quot;]/div[@class=&quot;row h-100 w-100&quot;]/div[@class=&quot;col-md-6&quot;]/div[1]/svg[1]/g[2]/text[@class=&quot;widget-title&quot;]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;h-100 w-100&quot;]/div[@class=&quot;container-fluid h-90 w-100&quot;]/div[@class=&quot;row h-100 w-100&quot;]/div[@class=&quot;col-md-6&quot;]/div[1]/svg[1]/g[2]/g[@class=&quot;widget-legend&quot;]/g[11]/text[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Despesas por categoria']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='outro']/parent::*</value>
    </webElementXpaths>
 </WebElementEntity>

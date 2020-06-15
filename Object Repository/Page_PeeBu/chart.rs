@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Top 5 despesas</name>
+   <name>chart</name>
    <tag></tag>
-   <elementGuidId>442ee879-f725-4cb2-87bd-a47eb22397ad</elementGuidId>
+   <elementGuidId>be21bda8-05d9-4dfb-bcaf-ab38b3d3fbf7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[3]/div/div[2]/div/span</value>
+         <value>//div[@id='app']/div/div[3]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,55 +17,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Top 5 despesas</value>
+      <value>  202050454035302520151050Despesas por categoriacabeleireirorestauracaosaudeentretenimentoescolacasaanimaismecanicasupermercadoroupasoutro</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;h-100 w-100&quot;]/div[@class=&quot;container-fluid h-90 w-100&quot;]/div[@class=&quot;row h-100 w-100&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;col-md-12&quot;]/span[1]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;h-100 w-100&quot;]/div[@class=&quot;container-fluid h-90 w-100&quot;]/div[@class=&quot;row h-100 w-100&quot;]/div[@class=&quot;col-md-6&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[3]/div/div[2]/div/span</value>
+      <value>//div[@id='app']/div/div[3]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='outro'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='roupas'])[1]/following::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Top 5 despesas']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/span</value>
+      <value>//div[3]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

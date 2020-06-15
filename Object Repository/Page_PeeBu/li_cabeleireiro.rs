@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Top 5 despesas</name>
+   <name>li_cabeleireiro</name>
    <tag></tag>
-   <elementGuidId>442ee879-f725-4cb2-87bd-a47eb22397ad</elementGuidId>
+   <elementGuidId>8bb63da1-7302-49fa-8f6d-ab2f3fc77ac6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[3]/div/div[2]/div/span</value>
+         <value>//div[@id='app']/div/div[3]/div/div[2]/ul/li[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,55 +17,50 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-group-item d-flex justify-content-between align-items-center</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Top 5 despesas</value>
+      <value>
+                    cabeleireiro
+                    0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;h-100 w-100&quot;]/div[@class=&quot;container-fluid h-90 w-100&quot;]/div[@class=&quot;row h-100 w-100&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;col-md-12&quot;]/span[1]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;h-100 w-100&quot;]/div[@class=&quot;container-fluid h-90 w-100&quot;]/div[@class=&quot;row h-100 w-100&quot;]/div[@class=&quot;col-md-6&quot;]/ul[@class=&quot;list-group&quot;]/li[@class=&quot;list-group-item d-flex justify-content-between align-items-center&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[3]/div/div[2]/div/span</value>
+      <value>//div[@id='app']/div/div[3]/div/div[2]/ul/li[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='outro'])[1]/following::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='roupas'])[1]/following::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Top 5 despesas']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Top 5 despesas'])[1]/following::li[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/span</value>
+      <value>//div[2]/ul/li[2]</value>
    </webElementXpaths>
 </WebElementEntity>
