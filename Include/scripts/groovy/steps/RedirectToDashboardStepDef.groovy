@@ -45,20 +45,20 @@ import cucumber.api.java.en.When
 
 
 class RedirectToDashboardStepDef {
-	
+
 	@When("I classify a transaction")
 	public void i_classify_a_transaction() {
 		WebUI.click(findTestObject('Page_PeeBu/health'))
 	}
-	
+
 	@When("I click  on {string}")
 	public void i_click_on(String string) {
 		WebUI.click(findTestObject('Page_PeeBu/button_'+string))
 	}
-	
+
 	@Then("I get redirected to a different page displaying a fully classified transactions list")
 	public void i_get_redirected_to_a_different_page_displaying_a_fully_classified_transactions_list() {
-		WebUI.click(findTestObject('Page_PeeBu/Despesas por categoria'))
-		WebUI.click(findTestObject('Page_PeeBu/Top 5 despesas'))
+		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/Top 5 despesas'), 0)
+		WebUI.verifyElementPresent(findTestObject('Page_PeeBu/Despesas por categoria'), 0)
 	}
 }
